@@ -1,10 +1,6 @@
 # UI CLIENT
 
-Project dummy chatting customer service area, and role user:
-AGENT
-Client
-
-This Repository Agent
+Agent Area/Agent Ui, i build with study case dummy and not recommend commercial, because your need study case not same with me 😀
 
 ## Install Project And Run
 
