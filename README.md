@@ -17,7 +17,7 @@ In the project install, you can run:
 In the project Run, you can run:
 
 ```bash
-`npm start`
+npm start
 ```
 
 ```bash
