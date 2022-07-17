@@ -16,7 +16,7 @@ In the project install, you can run:
 
 In the project Run, you can run:
 
-````bash
+```bash
 `npm start`
 ```
 
@@ -24,6 +24,7 @@ In the project Run, you can run:
 Or
 yarn start
 ```
+
 ## Tech & Package
 
 - Reactjs v 18.02
@@ -44,4 +45,7 @@ To learn Redux toolkit, check out the [Redux Toolkit documentation](https://redu
 To learn ChakraUi, check out the [ChakraUi documentation](https://chakra-ui.com/getting-started/cra-guide).
 
 To learn Axios-http, check out the [Axios-http](https://axios-http.com/docs/intro).
-````
+
+```
+
+```
