@@ -10,9 +10,14 @@ This Repository Agent
 
 In the project install, you can run:
 
-### `npm install`
+```bash
+npm install
+```
 
-### `or yarn install`
+```bash
+Or
+yarn install
+```
 
 In the project Run, you can run:
 
