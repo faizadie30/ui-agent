@@ -57,4 +57,4 @@ To learn Axios-http, check out the [Axios-http](https://axios-http.com/docs/intr
 
 ## Found Me
 
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> | (https://choosealicense.com/licenses/mit/)
+[<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> ](https://choosealicense.com/licenses/mit/)
