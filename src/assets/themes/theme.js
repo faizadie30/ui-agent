@@ -1,25 +1,52 @@
 import { extendTheme } from '@chakra-ui/react';
+import '@fontsource/nunito/';
+// import { StyleFunctionProps } from '@chakra-ui/theme-tools';
 
-const theme = {
+const theme = extendTheme({
   config: {
     initialColorMode: 'dark',
     useSystemColorMode: false,
+  },
+  colors: {
+    black: 'BlackAlpha 700',
+    white: 'White',
+    primary: { 400: '#4299E1', 600: '#2B6CB0' },
+  },
+  components: {
+    Button: {
+      variants: {
+        'btn-primary': {
+          bg: 'blue.400',
+          color: 'white',
+          _hover: {
+            bg: 'blue.600',
+          },
+        },
+      },
+    },
+    Link: {
+      variants: {
+        'link-primary': {
+          color: 'blue.400',
+          _hover: {
+            color: 'blue.600',
+          },
+        },
+      },
+    },
   },
   styles: {
     global: {
       body: {
         margin: 0,
-        fontFamily:
-          " -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+        fontFamily: `'Nunito', sans-serif;`,
         webkitFontSmoothing: 'antialiased',
         mozFontSmoothing: 'grayscale',
       },
       code: {
-        fontFamily:
-          "source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace",
+        fontFamily: `'Nunito', sans-serif;`,
       },
     },
   },
-};
-
-export default extendTheme(theme);
+});
+export default theme;

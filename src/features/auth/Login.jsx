@@ -1,12 +1,14 @@
 import React from 'react';
 import {
   Button,
-  ButtonGroup,
   FormControl,
   InputGroup,
   Input,
   Heading,
+  Box,
   VStack,
+  Text,
+  Link,
 } from '@chakra-ui/react';
 
 function Login() {
@@ -19,7 +21,7 @@ function Login() {
         h="100vh"
         spacing="1rem"
       >
-        <Heading>Log In</Heading>
+        <Heading as="h5">Sign In</Heading>
         <FormControl>
           Email
           <InputGroup size="md">
@@ -32,6 +34,17 @@ function Login() {
             <Input type="password" />
           </InputGroup>
         </FormControl>
+        <Button variant="btn-primary" type="submit">
+          Log In
+        </Button>
+        <Box>
+          <Text fontSize="md">
+            Don't have account?{' '}
+            <Link variant="link-primary" href="#">
+              Join Now
+            </Link>
+          </Text>
+        </Box>
       </VStack>
     </>
   );
